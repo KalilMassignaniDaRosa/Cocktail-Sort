@@ -1,0 +1,15 @@
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTail.exe
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTail.deps.json
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTail.runtimeconfig.json
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTail.dll
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTail.pdb
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTail.AssemblyInfoInputs.cache
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTail.AssemblyInfo.cs
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTail.csproj.CoreCompileInputs.cache
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTail.sourcelink.json
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTail.dll
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\refint\CockTail.dll
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTail.pdb
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTail.genruntimeconfig.cache
+C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\ref\CockTail.dll
