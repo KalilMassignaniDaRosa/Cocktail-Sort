@@ -1,7 +1,7 @@
 # Algoritmo do funcionamento do Cocktail Sort visualmente
 
 ## Como funciona?
-Ele destaca a barra atual de vermelha e a barra a ser comapara de ciano<br>
+Ele destaca a barra atual de vermelha e a barra a ser comparada de ciano<br>
 Todas as trocas podem ser observadas, e são contabilizadas<br>
 
 
