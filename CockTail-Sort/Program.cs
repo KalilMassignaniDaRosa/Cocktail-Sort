@@ -2,6 +2,7 @@ using CockTailSort;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Threading.Tasks;
 
 class Program
@@ -17,6 +18,7 @@ class Program
         //Numeros de 20 a 1 em forma decrescente
         //int[] values =[ 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 ];
         CockTail sorter = new ();
+        bool enableVisualization = true; 
 
         //Criando novo vetor do mesmo tamanho
         int[] copyValues = new int[values.Length];
@@ -25,6 +27,9 @@ class Program
         for (int i = 0; i < values.Length; i++)
         {
             copyValues[i] = values[i];
+
+            if(values[i]<= 0)
+                enableVisualization = false;
         }
 
         Console.WriteLine("Array: ");
@@ -33,7 +38,7 @@ class Program
         Console.ReadLine();
         Console.Clear();
 
-        sorter.Sort(values);
+        sorter.Sort(values, enableVisualization);
 
         Console.WriteLine("Original Array: ");
         Visualizer.Print(copyValues);
