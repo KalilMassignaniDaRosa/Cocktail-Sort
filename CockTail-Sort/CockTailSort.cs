@@ -11,7 +11,8 @@ namespace CockTailSort
         public static int ComparisonCount { get; private set; }
 
         //Metodo que faz a organizacao
-        public int[] Sort(int[] array)
+        //Se for chamado sem especificar, enableVisualization sera true
+        public int[] Sort(int[] array, bool enableVisualization = true)
         {
             Visualizer visualizer = new ();
             //Iniciando contadores
@@ -32,31 +33,38 @@ namespace CockTailSort
                     ComparisonCount++;
                     //Exibe a barra atual antes da comparacao
                     //Compara com a barra pintada de vermelha
-                    visualizer.DisplayBars(array, i, true); 
+                    if (enableVisualization)
+                        visualizer.DisplayBars(array, i, true);
 
                     //Se o elemento atual e maior, troca
                     if (array[i] > array[i + 1])
                     {
                         Swap(array, i, i + 1);
-                        visualizer.DisplayBars(array, i + 1, true);
+
+                        if (enableVisualization)
+                            visualizer.DisplayBars(array, i, true);
+                            
                         swapped = true;
                         SwapCount++;
 
                         //Verifica se o array esta ordenado apos a troca
-                        if (CheckIfSorted(array))
+                        if (CheckIfSorted(array, enableVisualization))
                             return array;
                     }
                     else
                     {
                         //Mostra a barra que nao foi trocada
-                        visualizer.DisplayBars(array, i, false); 
+                        if(enableVisualization)
+                            visualizer.DisplayBars(array, i, false); 
                     }
                 }
 
-                // Se nenhuma troca foi feita, o array esta ordenado
+                //Se nenhuma troca foi feita, o array esta ordenado
                 if (!swapped)
                 {
-                    visualizer.DisplaySortedBars(array);
+                    if(enableVisualization)
+                        visualizer.DisplaySortedBars(array);
+
                     return array;
                 }
 
@@ -69,19 +77,18 @@ namespace CockTailSort
                 for (int i = upper; i >= lower + 1; i--) 
                 {
                     ComparisonCount++;
-                    visualizer.DisplayBars(array, i, false); 
+                    if (enableVisualization)
+                        visualizer.DisplayBars(array, i, false);
 
                     //Se o elemento atual e menor, troca
                     if (array[i] < array[i - 1])
                     {
                         Swap(array, i, i - 1);
-                        visualizer.DisplayBars(array, i - 1, false);
+                        if(enableVisualization)
+                            visualizer.DisplayBars(array, i - 1, false);
+
                         swapped = true;
                         SwapCount++;
-
-                        if (CheckIfSorted(array))
-                            return array;
-                        
                     }
                 }
                 //Aumenta o limite inferior
@@ -89,12 +96,14 @@ namespace CockTailSort
             }
 
             //Exibe o array ordenado apos a conclusao
-            visualizer.DisplaySortedBars(array);
+            if (enableVisualization)
+                visualizer.DisplaySortedBars(array);
+            
             return array;
         }
 
         //Metodo para verificar se o array esta ordenado
-        private bool CheckIfSorted(int[] array)
+        private bool CheckIfSorted(int[] array, bool enableVisualization)
         {
             for (int i = 0; i < array.Length - 1; i++)
             {
@@ -105,7 +114,9 @@ namespace CockTailSort
             //Se chegar aqui, o array esta ordenado
             Visualizer visualizer = new();
             //Chama metodo para pintar as barras de verde
-            visualizer.DisplaySortedBars(array);
+            if(enableVisualization)
+                visualizer.DisplaySortedBars(array);
+
             return true;
         }
 
@@ -115,19 +126,6 @@ namespace CockTailSort
             int temp = array[first];
             array[first] = array[second];
             array[second] = temp;
-        }
-
-        //Metodo para exibir vetor com numeros
-        public void Print(int[] array)
-        {
-            Console.Write("[ ");
-            foreach (int a in array)
-            {
-                Thread.Sleep(100);
-                Console.Write($"{a} ");
-            }
-            Console.Write("]");
-            Console.WriteLine("");
         }
     }
 }

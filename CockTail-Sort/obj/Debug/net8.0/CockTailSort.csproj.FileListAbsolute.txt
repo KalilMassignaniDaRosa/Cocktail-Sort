@@ -43,3 +43,18 @@ C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\bin\Debu
 C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTailSort.pdb
 C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTailSort.genruntimeconfig.cache
 C:\Users\Kalil\Documents\Estrutura de Dados\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\ref\CockTailSort.dll
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTailSort.exe
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTailSort.deps.json
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTailSort.runtimeconfig.json
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTailSort.dll
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\bin\Debug\net8.0\CockTailSort.pdb
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTailSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTailSort.AssemblyInfoInputs.cache
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTailSort.AssemblyInfo.cs
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTailSort.csproj.CoreCompileInputs.cache
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTailSort.sourcelink.json
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTailSort.dll
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\refint\CockTailSort.dll
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTailSort.pdb
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\CockTailSort.genruntimeconfig.cache
+C:\Users\Kalil\Desktop\Nova pasta\Cocktail-Sort\CockTail-Sort\obj\Debug\net8.0\ref\CockTailSort.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kalil\\Documents\\Estrutura de Dados\\Cocktail-Sort\\CockTail-Sort\\CockTailSort.csproj": {}
+    "C:\\Users\\Kalil\\Desktop\\Nova pasta\\Cocktail-Sort\\CockTail-Sort\\CockTailSort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kalil\\Documents\\Estrutura de Dados\\Cocktail-Sort\\CockTail-Sort\\CockTailSort.csproj": {
+    "C:\\Users\\Kalil\\Desktop\\Nova pasta\\Cocktail-Sort\\CockTail-Sort\\CockTailSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kalil\\Documents\\Estrutura de Dados\\Cocktail-Sort\\CockTail-Sort\\CockTailSort.csproj",
+        "projectUniqueName": "C:\\Users\\Kalil\\Desktop\\Nova pasta\\Cocktail-Sort\\CockTail-Sort\\CockTailSort.csproj",
         "projectName": "CockTailSort",
-        "projectPath": "C:\\Users\\Kalil\\Documents\\Estrutura de Dados\\Cocktail-Sort\\CockTail-Sort\\CockTailSort.csproj",
+        "projectPath": "C:\\Users\\Kalil\\Desktop\\Nova pasta\\Cocktail-Sort\\CockTail-Sort\\CockTailSort.csproj",
         "packagesPath": "C:\\Users\\Kalil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kalil\\Documents\\Estrutura de Dados\\Cocktail-Sort\\CockTail-Sort\\obj\\",
+        "outputPath": "C:\\Users\\Kalil\\Desktop\\Nova pasta\\Cocktail-Sort\\CockTail-Sort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kalil\\AppData\\Roaming\\NuGet\\NuGet.Config"

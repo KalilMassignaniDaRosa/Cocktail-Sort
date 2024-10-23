@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CockTailSort")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb45910749d3913a1ec06acf34078a5539987613")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+457794b6083c3c56eaf1e3aa0a8296e5a5f7cdce")]
 [assembly: System.Reflection.AssemblyProductAttribute("CockTailSort")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CockTailSort")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

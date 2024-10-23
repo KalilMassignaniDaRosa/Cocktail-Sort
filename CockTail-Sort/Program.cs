@@ -16,10 +16,8 @@ class Program
 
         //Numeros de 20 a 1 em forma decrescente
         //int[] values =[ 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 ];
-        CockTail sorter = new CockTail();
+        CockTail sorter = new ();
 
-        
-        
         //Criando novo vetor do mesmo tamanho
         int[] copyValues = new int[values.Length];
 
@@ -28,18 +26,18 @@ class Program
         {
             copyValues[i] = values[i];
         }
-        
 
         Console.WriteLine("Array: ");
-        sorter.Print(copyValues);
-        Console.WriteLine("Press Enter to view the swaps...");
-        Console.ReadLine(); // Aguardando a entrada do usuário
+        Visualizer.Print(copyValues);
+        Console.WriteLine("Press Enter to continue...");
+        Console.ReadLine();
+        Console.Clear();
 
         sorter.Sort(values);
 
         Console.WriteLine("Original Array: ");
-        sorter.Print(copyValues);
+        Visualizer.Print(copyValues);
         Console.WriteLine("Sorted with Cocktail: ");
-        sorter.Print(values);
+        Visualizer.Print(values);
     }
 }
